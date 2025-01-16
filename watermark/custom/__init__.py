@@ -1,1 +1,1 @@
-from .custom import SWEET
+from .custom import Custom
