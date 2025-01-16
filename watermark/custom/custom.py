@@ -22,7 +22,7 @@ class CustomConfig:
                 transformers_config (TransformersConfig): Configuration for the transformers model.
         """
         if algorithm_config is None:
-            config_dict = load_config_file('config/custom.json')
+            config_dict = load_config_file('config/Custom.json')
         else:
             config_dict = load_config_file(algorithm_config)
         if config_dict['algorithm_name'] != 'custom':

@@ -22,6 +22,7 @@
 import importlib
 
 WATERMARK_MAPPING_NAMES={
+    'Custom': 'watermark.custom.Custom',
     'KGW': 'watermark.kgw.KGW',
     'Unigram': 'watermark.unigram.Unigram',
     'SWEET': 'watermark.sweet.SWEET',
